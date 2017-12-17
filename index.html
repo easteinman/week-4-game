@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <title>Crystals Collector</title>
   
-  <!-- CSS File -->
-  <link rel="stylesheet" src="assets/css/style.css">
+  <!-- CSS Files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Font Files -->
+  <link href="https://fonts.googleapis.com/css?family=Julee|Nunito" rel="stylesheet">
 
   <!-- JavascriptcFile -->
   <script type="text/javascript" src="assets/javascript/game.js"></script>
@@ -16,10 +19,12 @@
 </head>
 
 <body>
+<div id="page">
 
-  <h1>Crystals Collector!</h1>
+  <h1>Crystals Collector</h1>
 
   <div id="instructions">
+  	<h2>Instructions</h2>
     <p>You will be given a random number at the start of the game.
     
     <br><br>
@@ -28,7 +33,7 @@
 
     <br><br>
 
-    You win the game by matching you total score to the random number. You lose the game if your total score goes above the random number.
+    You <b>win</b> the game by matching you total score to the random number. You <b>lose</b> the game if your total score goes above the random number.
 
     <br><br>
 
@@ -42,21 +47,47 @@
   </div>
   <!-- End of "instructions" div-->
   
+
+
   <div id="random-number">
+  	<h2>Random Number</h2>
+  	  <p>Random Number Here</p>
   </div>
   <!-- End of "random-number" div -->
 
-  <div id="counter">
-  </div>
-  <!-- End of "counter" div -->
+
 
   <div id="crystals">
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal1.png?raw=true" height="200" width="200" alt="Crystal1" class="picture">
+
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal2.png?raw=true" height="200" width="200" alt="Crystal2" class="picture">
+
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal3.png?raw=true" height="200" width="200" alt="Crystal3" class="picture">
+
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal4.png?raw=true" height="200" width="200" alt="Crystal4" class="picture">
   </div>
   <!-- End of "crystals" div -->
 
+
+
   <div id="score">
+    <h2>Score</h2>
+  	  <p>Score Goes Here</p>
   </div>
   <!-- End of "score" div -->
+
+
+  <div id="counter">
+  	<h2>Counter</h2>
+  	  <p>Wins: </p>
+  	  <p>Losses: </p>
+  </div>
+  <!-- End of "counter" div -->
+
+
+
+</div>
+<!-- End of Page Wrapper-->
 
 </body>
 
