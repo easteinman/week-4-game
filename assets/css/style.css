@@ -12,6 +12,7 @@ h2 {
 	font-family: 'Julee', cursive;
     color: #fff;
     font-style: bold;
+    text-align: center;
 }
 
 
@@ -27,7 +28,7 @@ p {
 #instructions {
 	float: left;
 	width: 630px;
-	margin: auto;
+	margin-left: 100px;
 	padding: 20px;
 	border-style: solid;
 	border-width: 2px;
@@ -40,42 +41,42 @@ p {
 #random-number {
 	width: 250px;
 	float: left;
-	margin: 30px auto 30px auto;
+	margin: 20px;
 	background-color: #5627ad;
-	padding: 20px;
+	padding: 10px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #43124f;
 	border-radius: 25px;
 	text-align: center;
-}
-
-#crystals {
-	float: left;
-	margin: auto;
-}
-
-#counter {
-	width: 250px;
-	float: right;
-	margin: 30px auto 30px auto;
-	background-color: #5627ad;
-	padding: 20px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #43124f;
-	border-radius: 25px;
 }
 
 #score {
 	width: 250px;
 	float: left;
-	margin: 30px auto 30px auto;
+	margin: 20px;
 	background-color: #5627ad;
-	padding: 20px;
+	padding: 10px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #43124f;
 	border-radius: 25px;
 	text-align: center;
+}
+
+#counter {
+	width: 250px;
+	float: left;
+	margin: 20px;
+	background-color: #5627ad;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #43124f;
+	border-radius: 25px;
+}
+
+#crystals {
+	float: left;
+	margin-left: 25px;
 }
