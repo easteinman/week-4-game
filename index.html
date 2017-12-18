@@ -2,17 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
+
   <!-- Favicon -->
-  <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/9/9f/Crystal_magneto.png/revision/latest?cb=20151121235416" type="image/x-icon">
+  <link rel="shortcut icon" href="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal_favicon.png?raw=true" type="image/x-icon">
 
   <title>Crystal Collector</title>
-  
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery.js"></script>
-
-  <!-- JavascriptcFile -->
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
 
   <!-- CSS Files -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -59,7 +53,7 @@
   </div>
   <!-- End of "random-number" div -->
 
-  <div id="score">
+  <div id="yourTotal">
     <h2>Your Total</h2>
   	  <p class="scoreCounter">Score Goes Here</p>
   </div>
@@ -74,13 +68,13 @@
 
 
   <div id="crystals">
-  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal1.png?raw=true" height="200" width="200" alt="Crystal1" class="picture">
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal1.png?raw=true" height="200" width="200" alt="Crystal1" class="crystalImage" id="crystal1">
 
-  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal2.png?raw=true" height="200" width="200" alt="Crystal2" class="picture">
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal2.png?raw=true" height="200" width="200" alt="Crystal2" class="crystalImage" id="crystal2">
 
-  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal3.png?raw=true" height="200" width="200" alt="Crystal3" class="picture">
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal3.png?raw=true" height="200" width="200" alt="Crystal3" class="crystalImage" id="crystal3">
 
-  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal4.png?raw=true" height="200" width="200" alt="Crystal4" class="picture">
+  	<img src="https://github.com/ericsteinman/week-4-game/blob/master/assets/images/crystal4.png?raw=true" height="200" width="200" alt="Crystal4" class="crystalImage" id="crystal4">
   </div>
   <!-- End of "crystals" div -->
 
@@ -89,6 +83,12 @@
 </div>
 <!-- End of Page Wrapper-->
 
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- JavascriptcFile -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
