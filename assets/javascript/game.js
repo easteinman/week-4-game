@@ -19,15 +19,56 @@ $( document ).ready(function(){
   var crystalNum4= Math.floor(Math.random()*11+1)
 
   // Set up a click event for each crystal that increases the user total by the number of the crystal.
+  
+  // Crystal 1
   $("#crystal1").on("click", function(){ 
     score = score + crystalNum1;
     $(".scoreCounter").text(score);
       if (score == randomNumber) {
-      	alert("Congratulations, you collected to correct amount of crystals!");
+      	alert("Congratulations, you collected to correct amount of crystals! You WIN!");
       }
 
       else if (score > randomNumber) {
-      	alert("Whoops, you took too many crystals. You lose.");
+      	alert("Whoops, you took too many crystals. You LOSE!");
+      }
+  })
+
+  // Crystal 2
+  $("#crystal2").on("click", function(){ 
+    score = score + crystalNum2;
+    $(".scoreCounter").text(score);
+      if (score == randomNumber) {
+      	alert("Congratulations, you collected to correct amount of crystals! You WIN!");
+      }
+
+      else if (score > randomNumber) {
+      	alert("Whoops, you took too many crystals. You LOSE!");
+      }
+  })
+
+  // Crystal 3
+  $("#crystal3").on("click", function(){ 
+    score = score + crystalNum3;
+    $(".scoreCounter").text(score);
+      if (score == randomNumber) {
+      	alert("Congratulations, you collected to correct amount of crystals! You WIN!");
+      }
+
+      else if (score > randomNumber) {
+      	alert("Whoops, you took too many crystals. You LOSE!");
+      }
+  })
+
+  // Crystal 4
+  $("#crystal4").on("click", function(){ 
+    score = score + crystalNum4;
+    $(".scoreCounter").text(score);
+      if (score == randomNumber) {
+      	alert("Congratulations, you collected to correct amount of crystals! You WIN!");
+      }
+
+      else if (score > randomNumber) {
+      	alert("Whoops, you took too many crystals. You LOSE!");
       }
   })
 
