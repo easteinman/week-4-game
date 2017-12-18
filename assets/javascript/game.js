@@ -23,7 +23,7 @@ $( document ).ready(function(){
   var wins = 0;
   var losses = 0;
 
-  // Set up a click event for each crystal that increases the user total by the number of the crystal.
+  // Set up a click event for each crystal that increases the userTotal by the number of the crystal.
   
   // Crystal 1
   $("#crystal1").on("click", function(){ 
