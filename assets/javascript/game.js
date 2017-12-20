@@ -14,10 +14,10 @@ $( document ).ready(function(){
   $(".totalCounter").text(userTotal);
 
   // Assign a random number between 1-12 to each crystal
-  var crystalNum1 = Math.floor(Math.random()*11+1)
-  var crystalNum2 = Math.floor(Math.random()*11+1)
-  var crystalNum3 = Math.floor(Math.random()*11+1)
-  var crystalNum4 = Math.floor(Math.random()*11+1)
+  var crystalNum1 = Math.floor(Math.random()*11+1);
+  var crystalNum2 = Math.floor(Math.random()*11+1);
+  var crystalNum3 = Math.floor(Math.random()*11+1);
+  var crystalNum4 = Math.floor(Math.random()*11+1);
 
   // Scoreboard Variables 
   var wins = 0;
